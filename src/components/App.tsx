@@ -1,10 +1,21 @@
+import { Fragment } from "react";
+import DesignForTheFuture from "./DesignForTheFuture/DesignForTheFuture";
+import Footer from "./Footer/Footer";
+import FreeOpenSimple from "./FreeOpenSimple/FreeOpenSimple";
+import Header from "./Header/Header";
+import Hero from "./Hero/Hero";
+import StateOfTheArtInfra from "./StateOfTheArtInfra/StateOfTheArtInfra";
+
 function App() {
   return (
-    <section>
-      <div className="min-h-screen flex justify-center items-center">
-        <h1 className="text-3xl font-bold text-blue-600">React-Tailwind-Typescript(RTT)</h1>
-      </div>
-    </section>
+    <Fragment>
+      <Header />
+      <Hero />
+      <DesignForTheFuture />
+      <StateOfTheArtInfra />
+      <FreeOpenSimple />
+      <Footer />
+    </Fragment>
   );
 }
 
