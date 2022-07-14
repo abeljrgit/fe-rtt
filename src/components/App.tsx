@@ -1,9 +1,9 @@
+import Form from "./Form";
+
 function App() {
   return (
-    <section>
-      <div className="min-h-screen flex justify-center items-center">
-        <h1 className="text-3xl font-bold text-blue-600">React-Tailwind-Typescript(RTT)</h1>
-      </div>
+    <section className="bg-blue-100 flex items-center justify-center py-32">
+      <Form />
     </section>
   );
 }
